@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_m3_for_arty_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="comp_defs" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="tb_m3_for_arty" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999996683fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000664fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="408"></NameColumnWidth>
+      <ValueColumnWidth column_width="171"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/tb_m3_for_arty/clk_sys" type="logic">
+      <obj_property name="ElementShortName">clk_sys</obj_property>
+      <obj_property name="ObjectShortName">clk_sys</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/clk_1m" type="logic">
+      <obj_property name="ElementShortName">clk_1m</obj_property>
+      <obj_property name="ObjectShortName">clk_1m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/clk_baud" type="logic">
+      <obj_property name="ElementShortName">clk_baud</obj_property>
+      <obj_property name="ObjectShortName">clk_baud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/nTRST" type="logic">
+      <obj_property name="ElementShortName">nTRST</obj_property>
+      <obj_property name="ObjectShortName">nTRST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/TDO" type="logic">
+      <obj_property name="ElementShortName">TDO</obj_property>
+      <obj_property name="ObjectShortName">TDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/led_4bits_tri_io" type="array">
+      <obj_property name="ElementShortName">led_4bits_tri_io[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led_4bits_tri_io[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/rgb_led_tri_io" type="array">
+      <obj_property name="ElementShortName">rgb_led_tri_io[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_led_tri_io[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/push_buttons_SRL" type="array">
+      <obj_property name="ElementShortName">push_buttons_SRL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">push_buttons_SRL[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/dip_switches_4bits_tri_i" type="array">
+      <obj_property name="ElementShortName">dip_switches_4bits_tri_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dip_switches_4bits_tri_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/DAPLink_tri_o" type="array">
+      <obj_property name="ElementShortName">DAPLink_tri_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DAPLink_tri_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_io0_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_io0_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_io0_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_io1_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_io1_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_io1_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_io2_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_io2_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_io2_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_io3_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_io3_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_io3_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_sck_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_sck_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_sck_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/qspi_flash_ss_io" type="logic">
+      <obj_property name="ElementShortName">qspi_flash_ss_io</obj_property>
+      <obj_property name="ObjectShortName">qspi_flash_ss_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/baud_count" type="array">
+      <obj_property name="ElementShortName">baud_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/uart_pipe" type="array">
+      <obj_property name="ElementShortName">uart_pipe[99:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_pipe[99:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/daplink_srstn" type="logic">
+      <obj_property name="ElementShortName">daplink_srstn</obj_property>
+      <obj_property name="ObjectShortName">daplink_srstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/sw_di" type="array">
+      <obj_property name="ElementShortName">sw_di[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_di[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/Vcc" type="array">
+      <obj_property name="ElementShortName">Vcc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Vcc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/CLK_PERIOD_12M" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD_12M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD_12M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/CLK_PERIOD_100M" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD_100M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD_100M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/CLK_PERIOD_1M" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD_1M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD_1M[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/CLK_PERIOD_SYS" type="array">
+      <obj_property name="ElementShortName">CLK_PERIOD_SYS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD_SYS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/BAUD_RATE" type="array">
+      <obj_property name="ElementShortName">BAUD_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAUD_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/CLK_DIV_BAUD" type="array">
+      <obj_property name="ElementShortName">CLK_DIV_BAUD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_DIV_BAUD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/SW_TOGGLE_RATE" type="array">
+      <obj_property name="ElementShortName">SW_TOGGLE_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SW_TOGGLE_RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_m3_for_arty/UART_DELAY" type="array">
+      <obj_property name="ElementShortName">UART_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UART_DELAY[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">DAPLink</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_araddr" type="array">
+         <obj_property name="ElementShortName">C_AXI_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arburst" type="array">
+         <obj_property name="ElementShortName">C_AXI_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arcache" type="array">
+         <obj_property name="ElementShortName">C_AXI_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arlen" type="array">
+         <obj_property name="ElementShortName">C_AXI_arlen[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arlen[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arlock" type="array">
+         <obj_property name="ElementShortName">C_AXI_arlock[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arlock[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arprot" type="array">
+         <obj_property name="ElementShortName">C_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arready" type="logic">
+         <obj_property name="ElementShortName">C_AXI_arready</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arsize" type="array">
+         <obj_property name="ElementShortName">C_AXI_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_arvalid" type="logic">
+         <obj_property name="ElementShortName">C_AXI_arvalid</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awaddr" type="array">
+         <obj_property name="ElementShortName">C_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awburst" type="array">
+         <obj_property name="ElementShortName">C_AXI_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awcache" type="array">
+         <obj_property name="ElementShortName">C_AXI_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awlen" type="array">
+         <obj_property name="ElementShortName">C_AXI_awlen[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awlen[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awlock" type="array">
+         <obj_property name="ElementShortName">C_AXI_awlock[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awlock[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awprot" type="array">
+         <obj_property name="ElementShortName">C_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awready" type="logic">
+         <obj_property name="ElementShortName">C_AXI_awready</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awsize" type="array">
+         <obj_property name="ElementShortName">C_AXI_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_awvalid" type="logic">
+         <obj_property name="ElementShortName">C_AXI_awvalid</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_bready" type="logic">
+         <obj_property name="ElementShortName">C_AXI_bready</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_bresp" type="array">
+         <obj_property name="ElementShortName">C_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_bvalid" type="logic">
+         <obj_property name="ElementShortName">C_AXI_bvalid</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_rdata" type="array">
+         <obj_property name="ElementShortName">C_AXI_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_rlast" type="logic">
+         <obj_property name="ElementShortName">C_AXI_rlast</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_rready" type="logic">
+         <obj_property name="ElementShortName">C_AXI_rready</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_rresp" type="array">
+         <obj_property name="ElementShortName">C_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_rvalid" type="logic">
+         <obj_property name="ElementShortName">C_AXI_rvalid</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_wdata" type="array">
+         <obj_property name="ElementShortName">C_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_wlast" type="logic">
+         <obj_property name="ElementShortName">C_AXI_wlast</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_wready" type="logic">
+         <obj_property name="ElementShortName">C_AXI_wready</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_wstrb" type="array">
+         <obj_property name="ElementShortName">C_AXI_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_wvalid" type="logic">
+         <obj_property name="ElementShortName">C_AXI_wvalid</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_fittedn" type="logic">
+         <obj_property name="ElementShortName">DAPLink_fittedn</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_fittedn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWCLK" type="logic">
+         <obj_property name="ElementShortName">SWCLK</obj_property>
+         <obj_property name="ObjectShortName">SWCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWDI" type="logic">
+         <obj_property name="ElementShortName">SWDI</obj_property>
+         <obj_property name="ObjectShortName">SWDI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWDO" type="logic">
+         <obj_property name="ElementShortName">SWDO</obj_property>
+         <obj_property name="ObjectShortName">SWDO</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWDOEN" type="logic">
+         <obj_property name="ElementShortName">SWDOEN</obj_property>
+         <obj_property name="ObjectShortName">SWDOEN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_araddr" type="array">
+         <obj_property name="ElementShortName">S_AXI_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_arprot" type="array">
+         <obj_property name="ElementShortName">S_AXI_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_arready" type="array">
+         <obj_property name="ElementShortName">S_AXI_arready[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_arready[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_arvalid" type="array">
+         <obj_property name="ElementShortName">S_AXI_arvalid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_arvalid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_awaddr" type="array">
+         <obj_property name="ElementShortName">S_AXI_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_awprot" type="array">
+         <obj_property name="ElementShortName">S_AXI_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_awready" type="array">
+         <obj_property name="ElementShortName">S_AXI_awready[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_awready[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_awvalid" type="array">
+         <obj_property name="ElementShortName">S_AXI_awvalid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_awvalid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_bready" type="array">
+         <obj_property name="ElementShortName">S_AXI_bready[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_bready[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_bresp" type="array">
+         <obj_property name="ElementShortName">S_AXI_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_bvalid" type="array">
+         <obj_property name="ElementShortName">S_AXI_bvalid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_bvalid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_rdata" type="array">
+         <obj_property name="ElementShortName">S_AXI_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_rready" type="array">
+         <obj_property name="ElementShortName">S_AXI_rready[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_rready[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_rresp" type="array">
+         <obj_property name="ElementShortName">S_AXI_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_rvalid" type="array">
+         <obj_property name="ElementShortName">S_AXI_rvalid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_rvalid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_wdata" type="array">
+         <obj_property name="ElementShortName">S_AXI_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_wready" type="array">
+         <obj_property name="ElementShortName">S_AXI_wready[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_wready[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_wstrb" type="array">
+         <obj_property name="ElementShortName">S_AXI_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_wvalid" type="array">
+         <obj_property name="ElementShortName">S_AXI_wvalid[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_wvalid[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/Shield_out_tri_o" type="array">
+         <obj_property name="ElementShortName">Shield_out_tri_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Shield_out_tri_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/UART_out_rxd" type="logic">
+         <obj_property name="ElementShortName">UART_out_rxd</obj_property>
+         <obj_property name="ObjectShortName">UART_out_rxd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/UART_out_txd" type="logic">
+         <obj_property name="ElementShortName">UART_out_txd</obj_property>
+         <obj_property name="ObjectShortName">UART_out_txd</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/ext_spi_clk" type="logic">
+         <obj_property name="ElementShortName">ext_spi_clk</obj_property>
+         <obj_property name="ObjectShortName">ext_spi_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/nSRST" type="logic">
+         <obj_property name="ElementShortName">nSRST</obj_property>
+         <obj_property name="ObjectShortName">nSRST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/qspi_irq" type="logic">
+         <obj_property name="ElementShortName">qspi_irq</obj_property>
+         <obj_property name="ObjectShortName">qspi_irq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/qspi_xip_irq" type="logic">
+         <obj_property name="ElementShortName">qspi_xip_irq</obj_property>
+         <obj_property name="ObjectShortName">qspi_xip_irq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/s_axi_aclk" type="logic">
+         <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/s_axi_aresetn" type="logic">
+         <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/spi_irq" type="logic">
+         <obj_property name="ElementShortName">spi_irq</obj_property>
+         <obj_property name="ObjectShortName">spi_irq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/uart_rxd_axi" type="logic">
+         <obj_property name="ElementShortName">uart_rxd_axi</obj_property>
+         <obj_property name="ObjectShortName">uart_rxd_axi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/uart_txd_axi" type="logic">
+         <obj_property name="ElementShortName">uart_txd_axi</obj_property>
+         <obj_property name="ObjectShortName">uart_txd_axi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARADDR" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARBURST" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARCACHE" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARCACHE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARLEN" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARLEN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARLEN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARLOCK" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARLOCK[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARPROT" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARREADY" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARSIZE" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_ARSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_ARVALID" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWADDR" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWBURST" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWCACHE" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWCACHE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWLEN" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWLEN[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWLEN[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWLOCK" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWLOCK[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWLOCK[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWPROT" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWREADY" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWSIZE" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_AWSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_AWVALID" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_BREADY" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_BREADY</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_BRESP" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_BVALID" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_BVALID</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_RDATA" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_RLAST" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_RLAST</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_RLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_RREADY" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_RREADY</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_RRESP" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_RVALID" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_RVALID</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_WDATA" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_WLAST" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_WLAST</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_WLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_WREADY" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_WREADY</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_WSTRB" type="array">
+         <obj_property name="ElementShortName">C_AXI_1_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/C_AXI_1_WVALID" type="logic">
+         <obj_property name="ElementShortName">C_AXI_1_WVALID</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_1_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_DAPLink_fittedn" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_DAPLink_fittedn</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_DAPLink_fittedn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_SWCLK" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_SWCLK</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_SWCLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_SWDI" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_SWDI</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_SWDI</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_SWRSTn" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_SWRSTn</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_SWRSTn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_UART_RxD" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_UART_RxD</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_UART_RxD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_UART_TxD" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_UART_TxD</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_UART_TxD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_shield_TRI_O" type="array">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_shield_TRI_O[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_shield_TRI_O[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/DAPLink_to_Arty_shie_1_uart_rxd_axi" type="logic">
+         <obj_property name="ElementShortName">DAPLink_to_Arty_shie_1_uart_rxd_axi</obj_property>
+         <obj_property name="ObjectShortName">DAPLink_to_Arty_shie_1_uart_rxd_axi</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWDOEN_1" type="logic">
+         <obj_property name="ElementShortName">SWDOEN_1</obj_property>
+         <obj_property name="ObjectShortName">SWDOEN_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/SWDO_1" type="logic">
+         <obj_property name="ElementShortName">SWDO_1</obj_property>
+         <obj_property name="ObjectShortName">SWDO_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_ARPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_ARPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_ARREADY" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_ARREADY[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_ARREADY[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_ARVALID" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_ARVALID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_ARVALID[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_AWPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_AWPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_AWREADY" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_AWREADY[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_AWREADY[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_AWVALID" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_AWVALID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_AWVALID[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_BREADY" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_BREADY[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_BREADY[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_BVALID" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_BVALID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_BVALID[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_RREADY" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_RREADY[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_RREADY[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_RVALID" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_RVALID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_RVALID[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_WREADY" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_WREADY[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_WREADY[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/S_AXI_1_WVALID" type="array">
+         <obj_property name="ElementShortName">S_AXI_1_WVALID[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_1_WVALID[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_gpio_0_gpio_io_o" type="array">
+         <obj_property name="ElementShortName">axi_gpio_0_gpio_io_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_gpio_0_gpio_io_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M00_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M00_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M00_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M01_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M01_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M01_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M02_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M02_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M02_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_interconnect_0_M03_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_interconnect_0_M03_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_interconnect_0_M03_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARBURST" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARCACHE" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARCACHE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARLEN" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARLEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARLOCK" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARLOCK[0:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARLOCK[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARPROT" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARSIZE" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWBURST" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWCACHE" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWCACHE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWCACHE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWLEN" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWLEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWLOCK" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWLOCK[0:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWLOCK[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWPROT" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWSIZE" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_RLAST" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_RLAST</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_RLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_WLAST" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_WLAST</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_WLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_protocol_convert_0_M_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">axi_protocol_convert_0_M_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">axi_protocol_convert_0_M_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO0_I" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO0_I</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO0_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO0_O" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO0_O</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO0_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO0_T" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO0_T</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO0_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO1_I" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO1_I</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO1_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO1_O" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO1_O</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO1_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO1_T" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO1_T</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO1_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO2_I" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO2_I</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO2_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO2_O" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO2_O</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO2_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO2_T" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO2_T</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO2_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO3_I" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO3_I</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO3_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO3_O" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO3_O</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO3_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_IO3_T" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_IO3_T</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_IO3_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_SCK_O" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_SCK_O</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_SCK_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_SPI_0_SS_O" type="array">
+         <obj_property name="ElementShortName">axi_quad_spi_1_SPI_0_SS_O[0:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_SPI_0_SS_O[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_quad_spi_1_ip2intc_irpt" type="logic">
+         <obj_property name="ElementShortName">axi_quad_spi_1_ip2intc_irpt</obj_property>
+         <obj_property name="ObjectShortName">axi_quad_spi_1_ip2intc_irpt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO0_I" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO0_I</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO0_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO0_O" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO0_O</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO0_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO0_T" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO0_T</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO0_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO1_I" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO1_I</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO1_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO1_O" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO1_O</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO1_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_IO1_T" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_IO1_T</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_IO1_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_SCK_O" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_SCK_O</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_SCK_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_SPI_0_SS_O" type="array">
+         <obj_property name="ElementShortName">axi_single_spi_0_SPI_0_SS_O[0:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_SPI_0_SS_O[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_single_spi_0_ip2intc_irpt" type="logic">
+         <obj_property name="ElementShortName">axi_single_spi_0_ip2intc_irpt</obj_property>
+         <obj_property name="ObjectShortName">axi_single_spi_0_ip2intc_irpt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO0_I" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO0_I</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO0_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO0_O" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO0_O</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO0_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO0_T" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO0_T</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO0_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO1_I" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO1_I</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO1_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO1_O" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO1_O</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO1_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO1_T" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO1_T</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO1_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO2_I" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO2_I</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO2_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO2_O" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO2_O</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO2_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO2_T" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO2_T</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO2_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO3_I" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO3_I</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO3_I</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO3_O" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO3_O</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO3_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_IO3_T" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_IO3_T</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_IO3_T</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_SCK_O" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_SCK_O</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_SCK_O</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_SPI_0_SS_O" type="array">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_SPI_0_SS_O[0:0]</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_SPI_0_SS_O[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/axi_xip_quad_spi_0_ip2intc_irpt" type="logic">
+         <obj_property name="ElementShortName">axi_xip_quad_spi_0_ip2intc_irpt</obj_property>
+         <obj_property name="ObjectShortName">axi_xip_quad_spi_0_ip2intc_irpt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/ext_spi_clk_1" type="logic">
+         <obj_property name="ElementShortName">ext_spi_clk_1</obj_property>
+         <obj_property name="ObjectShortName">ext_spi_clk_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/s_axi_aclk_1" type="logic">
+         <obj_property name="ElementShortName">s_axi_aclk_1</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aclk_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/s_axi_aresetn_1" type="logic">
+         <obj_property name="ElementShortName">s_axi_aresetn_1</obj_property>
+         <obj_property name="ObjectShortName">s_axi_aresetn_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_m3_for_arty/DUT/m3_for_arty_a7_i/daplink_if_0/uart_txd_axi_1" type="logic">
+         <obj_property name="ElementShortName">uart_txd_axi_1</obj_property>
+         <obj_property name="ObjectShortName">uart_txd_axi_1</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
